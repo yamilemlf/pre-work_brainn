@@ -53,4 +53,6 @@ ele deverá ser escondido. Se estiver escondido, o clique deve exibí-lo.
 
 ```
 Acho que existe um modo mais fácil de fazer, mas não encontrei a tempo da aula 2
+
+2º commit com a correção utilizando classList.toggle
 ```
