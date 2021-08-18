@@ -9,7 +9,7 @@ function immutable(){
   const jane = {
     ...john,
     name: 'Jane',
-    hobbies: ['MuayThai', 'Programming']
+    hobbies: john.hobbies.concat([ 'MuayThai', 'Programming'])
   };
 
   console.log('John:', john)
