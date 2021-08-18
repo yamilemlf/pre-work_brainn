@@ -11,10 +11,10 @@ const jane = {
   hobbies: john.hobbies.concat([ 'MuayThai', 'Programming'])
 };
 
-export {
-  john,
-  jane
-};
+//outra forma: hobbies: [..john.hobbies, 'MuayThai', 'Programming']
+
+console.log('John:', john)
+console.log('Jane:', jane)
 
 
 
